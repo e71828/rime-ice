@@ -30,3 +30,4 @@ patch:
     abbreviate_options: true
     caption: "【 输入法设置 】"
     option_list_separator: "｜"
+    fold_options: true

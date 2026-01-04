@@ -1,5 +1,6 @@
+#!/usr/bin/env bash
 echo "Running rime-install"
-"$APPDATA/plum/rime-install" e71828/ice
+"$APPDATA/plum/rime-install" e71828/ice@custom
 echo "Finished rime-install"
 
 echo "Copying custom.yaml files"
