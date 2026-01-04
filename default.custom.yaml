@@ -1,0 +1,32 @@
+# Rime default settings
+# encoding: utf-8
+#
+# 小狼毫似乎不支持 Control+Shift 开头的快捷键，可自行修改成别的。
+# 鼠须管在 Sublime Text、Telegram 等个别软件中也无法使用 Control+Shift+数字 的快捷键，可暂时用方案选单切换。
+
+
+
+patch:
+  # 方案列表
+  schema_list:
+    # 可以直接删除或注释不需要的方案，对应的 *.schema.yaml 方案文件也可以直接删除
+    # 除了 t9，它依赖于 rime_ice，用九宫格别删 rime_ice.schema.yaml
+    - schema: rime_ice               # 雾凇拼音（全拼）
+    - schema: wubi86_jidian          # 五笔
+
+
+  # 菜单
+  menu:
+    page_size: 5  # 候选词个数
+    # alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⑩ ]  # 修改候选项标签
+    # alternative_select_keys: ASDFGHJKL  # 如编码字符占用数字键，则需另设选字键
+
+
+  # 方案选单相关
+  switcher:
+    hotkeys:        # 弹出菜单的快捷键
+      - "Control+0"
+      - "Shift+Control+0"
+    abbreviate_options: true
+    caption: "【 输入法设置 】"
+    option_list_separator: "｜"
