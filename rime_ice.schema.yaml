@@ -7,6 +7,8 @@ schema:
   schema_id: rime_ice
   name: 雾凇拼音
   version: "2025-11-02"
+  icon: "ice.ico"           # string 方案图标，格式： .ico
+  ascii_icon:               # string
   author:
     - Dvel
   description: |
